@@ -1,3 +1,3 @@
 <h1>Redlist2 Framework</h1>
 
-<a href="?p=docs/toc">See Docs</a>
+<a href="?md=framework/toc">Framework Docs</a>

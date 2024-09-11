@@ -19,12 +19,17 @@
     $_title = "REDLIST2"; 
 
     //read module
-    $_page = isset($_GET['p'])?$_GET['p']:"home";
+    if(isset($_GET['md'])) {
+        $_page = "viewmd";
+    } else {
+        $_page = isset($_GET['p'])?$_GET['p']:"home";
+    }
     $_path_mods = PATH_MODS;
 
     // execute module
+    
     include PATH_MODS.$_page.".php"; 
-
+    
     // assign vars1
     $smarty->assign("_title", $_title);
     $smarty->assign("_header", $_header);
