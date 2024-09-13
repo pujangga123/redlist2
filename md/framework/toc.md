@@ -2,7 +2,11 @@
 
 ## Overview
 1. [Philosophy](philosophy.md)
-2. [Koneksi Database](?p=db)
+2. Quick Start
+3. Template Engine
+4. [Koneksi Database](?p=db)
+5. [Page Templates](?p=template)
+6. Markdown Docs
 
 ## Library
 1. Smarty Template Engine v4
