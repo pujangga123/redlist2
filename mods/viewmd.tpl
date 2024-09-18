@@ -6,8 +6,8 @@
     }
 </style>
 
-{{if $style}}
-    <link rel="stylesheet" href="{{$style}}">
-{{/if}}
+{if $style}
+    <link rel="stylesheet" href="{$style}">
+{/if}
 
-{{rlmarkdown text=$text}}
+{rlmarkdown text=$text}

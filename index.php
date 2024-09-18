@@ -15,7 +15,7 @@
     // DEFAULTS
     // semua global val gunakan _ sebagai prefix
     $_default = "index.tpl"; // default template
-    $_header = PATH_MODS."header.tpl";
+    $_header = PATH_MODS."head.tpl";
     $_title = "REDLIST2"; 
 
     //read module
