@@ -15,7 +15,7 @@
     // DEFAULTS
     // semua global val gunakan _ sebagai prefix
     $_default = "index.tpl"; // default template
-    $_header = PATH_MODS."head.tpl";
+    $_head = "head.tpl";
     $_title = "REDLIST2"; 
 
     //read module
@@ -32,8 +32,8 @@
     
     // assign vars1
     $smarty->assign("_title", $_title);
-    $smarty->assign("_header", $_header);
+    $smarty->assign("_head", $_head);
     $smarty->assign("_page", $_page);
     $smarty->assign("_path_mods", PATH_MODS);
     $smarty->assign("_path_libs", PATH_LIBS);
-    $smarty->display(PATH_MODS.$_default);
+    $smarty->display($_default);

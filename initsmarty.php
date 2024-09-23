@@ -6,3 +6,4 @@
     $smarty->setCompileDir('compiled/');
     $smarty->setConfigDir(PATH_MODS);
     $smarty->setCacheDir('cache/');
+    //$smarty->setDebugging(true);

@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{$_title}</title>
-    {if $_header!=""}
-        {include file=$_head}
+    {if $_head!=""}
+        {include file="`$_path_mods`$_head"}
     {/if}
 
     <!-- jquery -->
@@ -18,9 +18,9 @@
 
     <script src="{$_path_mods}/index.js"></script>
 
-    {if file_exists("`$_path_mods``$_page`.head.tpl")}
+    {if file_exists("`$_path_mods`$_head.tpl")}
         <!-- module script -->
-        {include file="`$_path_mods``$_page`.head.tpl"}
+        {include file="`$_path_mods`$_head.tpl"}
     {/if}    
 </head>
 <body>
