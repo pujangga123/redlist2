@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{$_title}</title>
-    {if $_head!=""}
-        {include file=$_path_mods|cat:$_head}
-    {/if}
 
     <!-- jquery -->
     <script src="{$_path_libs}libs/jquery/jquery-3.7.1.slim.min.js"></script>
