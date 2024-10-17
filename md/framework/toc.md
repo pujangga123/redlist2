@@ -1,11 +1,11 @@
 # Redlist2: Framework Docs
 
 ## Overview
-1. [Philosophy](philosophy.md)
-2. Quick Start
+1. [Philosophy](?md=framework/philosophy)
+2. [Quick Start](?md=framework/quick-start)
 3. Template Engine
-4. [Koneksi Database](?p=db)
-5. [Page Templates](?p=template)
+4. [Koneksi Database](?md=framework/db)
+5. [Page Templates](?md=framework/page-template)
 6. Markdown Docs
 
 ## Library

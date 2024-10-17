@@ -16,52 +16,10 @@
   ];
 
   # Sets environment variables in the workspace
-  env = {};
-  idx = {
-    # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
-    extensions = [
-      # "vscodevim.vim"
-    ];
-
-    # Enable previews
-    previews = {
-      enable = true;
-      previews = {
-        # The following object sets web previews
-        web = {
-          command = [
-            "npm"
-            "run"
-            "start"
-            "--"
-            "--port"
-            "$PORT"
-            "--host"
-            "0.0.0.0"
-            "--disable-host-check"
-          ];
-          manager = "web";
-        };
-        # The following object sets Android previews
-        # Note that this is supported only on FLutter workspaces
-        android = {
-          manager = "flutter";
-        };
-      };
-    };
-
-    # Workspace lifecycle hooks
-    workspace = {
-      # Runs when a workspace is first created
-      onCreate = {
-        # Example: install JS dependencies from NPM
-        # npm-install = "npm install";
-      };
-      # Runs when the workspace is (re)started
-      onStart = {
-        # Example: start a background task to watch and re-build backend code
-        # watch-backend = "npm run watch-backend";
-      };
-    };
+  env = { };
+  idx.extensions = [
+    # "vscodevim.vim"
+  ];
+  idx.previews = {
   };
 }
